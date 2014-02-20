@@ -72,8 +72,6 @@ class Calendar
   def createMonth(month, month_name, includeYear = true)
     dayArrayStrings = createDayArray(month)
     month_display = []
-    # puts @dayArrayStrings
-    # dayArrayStrings = @dayArrayStrings
 
     first_line = spacingPayload(month_name, @year) if includeYear
     first_line = spacingPayload(month_name) unless includeYear
@@ -259,9 +257,5 @@ class Calendar
     end
     dayArrayStrings
   end
-
-
-
-
 
 end
