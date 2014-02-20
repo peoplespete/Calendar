@@ -5,7 +5,7 @@ Calendar
 
 Why?
 -----------
-
+This was a class assignment at Nashville Software School.
 
 Setup
 ------
@@ -15,7 +15,7 @@ git clone <CLONE_URL_FROM_GITHUB_PAGE>
 cd Calendar
 ```
 
-How To Use
+How To Use*
 -----------
 Year View
 ```
@@ -25,6 +25,8 @@ Month View
 ```
 ruby cal.rb MM YYYY
 ```
+
+*If you are missing ruby, [install](https://www.ruby-lang.org/en/).
 
 Additional Resources
 --------------------
